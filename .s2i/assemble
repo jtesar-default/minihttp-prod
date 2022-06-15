@@ -1,0 +1,11 @@
+#!/bin/bash
+
+/usr/libexec/assemble
+
+if [ $? == 0 ]; then
+  if [[ $PROD == "yes" ]]; then
+    strip /usr/bin/minihttpd
+  fi
+else
+  exit 1
+fi 
