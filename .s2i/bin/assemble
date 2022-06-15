@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/usr/libexec/assemble
+/usr/libexec/s2i/assemble
 
 if [ $? == 0 ]; then
   if [[ $PROD == "yes" ]]; then
