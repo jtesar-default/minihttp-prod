@@ -1,6 +1,6 @@
 CXXFLAGS=-O3
 INSTALL_PROGRAM=install
-DESTDIR=/usr/local
+DESTDIR=/usr/
 BINDIR=/bin
 
 all : minihttp
